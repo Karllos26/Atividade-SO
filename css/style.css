@@ -11,7 +11,7 @@ ul {
 
 .menu-principal {
     width: 100%;
-    background: linear-gradient(to left top,  rgb(255, 0, 0),40%,rgb(86, 2, 255));
+    background: linear-gradient(to left top, rgb(255, 0, 0), 40%, rgb(86, 2, 255));
     height: 60px;
     margin: 0;
 }
@@ -62,64 +62,73 @@ main {
 
 }
 
-.menu ul li a:hover{
-color:red;
--webkit-text-stroke-width: 2px;
--webkit-text-stroke-color: red;
+.menu ul li a:hover {
+    color: red;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red;
 }
+
 .menu ul li a {
     color: solid black;
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color:  #4400ffaf;
+    -webkit-text-stroke-color: #4400ffaf;
     font-weight: bold;
 }
+
 .menu2 ul li {
     display: inline-block;
     color: #555555;
     margin-left: 30px;
 
 }
-.menu2 ul li a:hover{
-    color:rgb(8, 0, 255);
+
+.menu2 ul li a:hover {
+    color: rgb(8, 0, 255);
     -webkit-text-stroke-width: 0.7px;
     -webkit-text-stroke-color: rgb(255, 0, 0);
-    }
-    .menu2 ul li a {
-        color: solid black;
-        text-decoration: none;
-        font-size: 20px;
-        text-transform: uppercase;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color:  #000000af;
-        font-weight: bold;
-    }
+}
+
+.menu2 ul li a {
+    color: solid black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000af;
+    font-weight: bold;
+}
+
 .col-100 {
     width: 100%;
     float: left;
     position: relative;
 }
-.autores{
 
-   
-    width: 100%; 
-    position: fixed;
-    bottom: 5% ;
+.autores {
 
+
+    width: 100%;
+    position: relative;
+    bottom: 5%;
+    padding: 10px;
+    margin-top: -20px;
 }
-.autores p{
+
+.autores p {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 0 5px 0;
-    background: linear-gradient(to left top,rgb(86, 2, 255), 65%, rgb(255, 0, 0));
-font-size: 20px;
-color:white ;
+    background: linear-gradient(to left top, rgb(86, 2, 255), 65%, rgb(255, 0, 0));
+    font-size: 20px;
+    color: white;
 }
+
 .decadas {
     width: 100%;
     height: auto;
@@ -132,25 +141,28 @@ color:white ;
     margin: 0;
 
 }
-.slide{
+
+.slide {
     position: relative;
     padding: 15px;
     max-width: 1000px;
     margin: 0 auto;
 
 }
-.slide-function{
+
+.slide-function {
     overflow-x: auto;
-        
+
 }
-.slide-galery{
+
+.slide-galery {
     display: flex;
 
     gap: 15px;
     width: 100%;
     flex-flow: row nowrap;
 
- 
+
 }
 
 
@@ -161,11 +173,13 @@ color:white ;
     flex: 0 0 auto;
     overflow: hidden;
 
-    width: 100%; /* Allows the content to expand beyond the screen */
-    
+    width: 100%;
+    /* Allows the content to expand beyond the screen */
+
 }
+
 .slide-principal {
-display: flex;
+    display: flex;
     width: 100%;
     height: auto;
     align-items: center;
@@ -183,14 +197,15 @@ display: flex;
     -webkit-text-stroke-color: #ff0000;
     color: rgb(0, 0, 0);
     text-align: left;
- margin: 0;
+    margin: 0;
     width: 100%;
- display: flex;
+    display: flex;
 
 }
-.slide-secundario{
+
+.slide-secundario {
     width: 50%;
-   margin: 0;
+    margin: 0;
 }
 
 .img-decada {
@@ -202,14 +217,15 @@ display: flex;
 }
 
 .img-decada img {
-width: 100%;
+    width: 100%;
     height: auto;
 }
 
-.slide-function::-webkit-scrollbar{
+.slide-function::-webkit-scrollbar {
     display: none;
 }
-.slide-function{
+
+.slide-function {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
